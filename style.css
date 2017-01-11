@@ -1,0 +1,62 @@
+/*
+links for images:
+https://www.wikimedia.org/static/images/project-logos/enwiki-1.5x.png
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/135px-WiktionaryEn.svg.png
+https://www.wikimedia.org/static/images/project-logos/wikiquote.png
+https://www.wikimedia.org/static/images/project-logos/wikibooks.png
+https://www.wikimedia.org/static/images/project-logos/wikisource.png
+https://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png
+https://www.wikimedia.org/static/images/project-logos/enwikiversity.png
+https://www.wikimedia.org/static/images/project-logos/specieswiki.png
+https://www.wikimedia.org/static/images/project-logos/mediawikiwiki.png
+https://www.wikimedia.org/static/images/project-logos/wikidatawiki.png
+https://www.wikimedia.org/static/images/project-logos/commonswiki.png
+https://www.wikimedia.org/static/images/project-logos/wikivoyage.png
+https://www.wikimedia.org/static/images/project-logos/metawiki.png
+https://www.wikimedia.org/static/images/project-logos/incubatorwiki.png
+https://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png
+https://www.wikimedia.org/static/images/project-logos/foundationwiki.png
+*/
+body {
+  width:100vw;
+  height:100vh;
+  background-color: white;
+  font-family: sans-serif;
+}
+.header {
+  text-align: justify;
+  vertical-align: top;
+  width: 70%;
+  font-size: 150%;
+  margin: auto;
+  padding: .5em 1em;
+}
+.main {
+  text-align: left;
+  margin:auto;
+  display: flex;
+  height: auto;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+.icon {
+  margin:50px;
+  margin-bottom: 0;
+  height: 175px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome {
+  padding: .5em 1em;
+  font-weight: bold;
+  text-align: right;
+}
+.bottom {
+  text-align: center;
+  font-size:75%;
+}
